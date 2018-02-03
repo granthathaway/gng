@@ -1,17 +1,40 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  background-color: DodgerBlue;
+  z-index: 2;
   justify-content: center;
+  background:linear-gradient( rgba(255, 255, 255, 0), black);
+
 }
 
 .profile {
   border-style: groove;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px 10px 10px 10px;
-  width: 20%;
-  height: 30%;
+  width: 30%;
+  height: 40%;
+  background:linear-gradient(black, grey, white);
+}
+h1 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.font {
+  color: black;
+}
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+
+.transparent {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
