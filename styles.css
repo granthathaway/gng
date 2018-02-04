@@ -25,6 +25,9 @@ h1 {
 .font {
   color: black;
 }
+.smaller-image {
+    width: 200px
+}
 html { 
   background: url(background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
