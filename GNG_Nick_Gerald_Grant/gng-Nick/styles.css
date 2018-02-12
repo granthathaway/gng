@@ -2,6 +2,10 @@ html {
   margin: 0;
   height: 100%;
 }
+
+h2 {
+  margin-left: 10px;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -9,6 +13,8 @@ html {
   justify-content: center;
   background: url(background.jpg) no-repeat center center fixed; 
   margin-top: 50px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
 .title-container {
@@ -22,8 +28,8 @@ html {
 
 .profile {
   border-style: groove;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -32,11 +38,16 @@ html {
   width: 30%;
   height: 40%;
   background:linear-gradient(#c6e2ff, grey, black);
+  box-shadow: 5px 10px rgb(29, 28, 28);
 }
 
 @media screen and (max-width:990px) {
   .flex-container { flex-direction: column;  }
   .profile {width: 90%;}
+  h2 {
+    padding-left: 40px;
+  }
+  h4 {opacity: 0;}
 }
 
 .font {
