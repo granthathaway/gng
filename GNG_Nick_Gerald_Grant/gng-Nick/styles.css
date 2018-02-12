@@ -11,6 +11,15 @@ html {
   margin-top: 50px;
 }
 
+.title-container {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  justify-content: center;
+  background: url(background.jpg) no-repeat center center fixed; 
+  margin-top: 50px;
+}
+
 .profile {
   border-style: groove;
   border-top-left-radius: 30%;
@@ -180,7 +189,7 @@ em {
   font-size: 15vmin;
   position: relative;
   font-style: normal;
-  width: 20vmin;
+  width: 10vmin;
   text-align: center;
 }
 
